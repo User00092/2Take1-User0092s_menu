@@ -10,6 +10,11 @@ Menu:
 
 Local Player:
 -- Updated "Give all weapons" to prevent duplicate weapons
+-- added "collectables" parent 
+-- added "unlock figures"
+-- added "unlock playing cards"
+-- added "destroy jammers"
+-- added "unlock shipwrecks"
 
 Lobby:
 -- Removed "Give all weapons" as it caused local player to crash when players > 2
