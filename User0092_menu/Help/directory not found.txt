@@ -1,0 +1,12 @@
+NOTE: I reccomend WinRar: https://www.rarlab.com/download.htm
+
+The directory isn't found, no worries.
+step one) Go to the Github Page: https://github.com/User00092/2Take1-User0092s_menu
+
+step two) click on the green button "Code" and press "Download ZIP"
+
+step three) Open the downloaded ZIP with WinRar 
+
+step four) Press "WINkey+R" and paste: "%appdata%\PopstarDevs\2Take1Menu\scripts"
+
+step five) Drag the files from the ZIP to the scripts folder
