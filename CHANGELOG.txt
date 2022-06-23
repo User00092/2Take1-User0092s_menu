@@ -1,0 +1,113 @@
+-------------------------------------------------- Version 0.0.3 ("xSY33APd") --------------------------------------------------
+Menu:
+-- updated to 0.0.3
+-- Recoded menu (Hurt my brain looking at the previous code).
+-- organized modules (Everything was everywhere).
+-- Menu should look cleaner (Sorry Ngin, the other versions were clustered).
+-- Updated welcome notification.
+-- Compressed main file by.. a lot.
+-- Added chat commands.
+-- Updated trusted mode verification (No longer blocks users with it off).
+-- Updated to menu version: 2.60.1
+-- Updated trusted mode checks
+
+
+local player:
+-- reworked.
+-- Removed "-- Yourself --" from the parent.
+-- added "stats" parent.
+-- added more presets to K/D.
+-- Removed "unlock shipwrecks" as it is no longer valid (as far as I can tell).
+-- "Give all weapons" doesn't remove already owned weapons anymore. Duplicate RPG's is still a thing.
+
+
+Chat Commands:
+-- added "Chat commands" parent.
+-- "/" is used to call.
+-- hidden command "/whitelist <player name>".
+
+
+lobby:
+-- removed until further notice.
+
+
+Friends: 
+-- removed until further notice.
+
+
+player specific:
+-- added "User0092's menu" parent 
+-- added "VPN?", checks if the user has a vpn 
+-- added "Log ip info", maually logs ip info EX (Yes, this is a spoofed IP. Yes, VPN detection works): 
+{"Linux" = 
+	{
+		{City: "Utrecht"}
+		{Region: "Utrecht"}
+		{Country: "NL"}
+		{ISP: "SURFnet bv"}
+		{Postal code (estimate): "3512"}
+		{Timezone: "Europe/Amsterdam"}
+		{VPN: false}
+		{Currency: "EUR"}
+		{IP: 145.6.237.163}
+		{Long: 5.12142}
+		{Lat: 52.0907}
+	}
+}
+
+
+Heist Control:
+-- reworked.
+-- cayo -> 238 lines to 104 lines (44% decrease).
+-- casino -> 238 lines to 76 lines (32% decrease).
+-- doomsday -> 117 lines to 41 lines (35% decrease).
+-- apartment removed until next update 
+
+Hidden:
+-- Removed "anti chat flood". Updated in next update 
+-- Added "player log" to be used in player history.
+-- Added "player history", detects players you've played with
+-- added "history log", stores history info
+-- added "Modder logs", stores modders
+-- added "auto ip log", auto logs ip of loining players 
+
+
+
+-------------------------------------------------- Version 0.0.2 (Private) --------------------------------------------------
+Menu:
+-- updated to 0.0.2
+-- added modules 
+-- Updated localization files
+-- added verify dependencies
+-- added verify menu version
+-- Prevented multiple instances 
+-- Fixed some spelling errors
+
+
+Local Player:
+-- Updated "Give all weapons" to prevent duplicate weapons
+-- added "collectables" parent 
+-- added "unlock figures"
+-- added "unlock playing cards"
+-- added "destroy jammers"
+-- added "unlock shipwrecks"
+
+Lobby:
+-- Removed "Give all weapons" as it caused local player to crash when players > 2
+
+Friends:
+
+
+Heist contol: 
+-- casino -> added notifications for prep skip
+-- cayo -> bag size: removed current bag size
+-- cayo -> select bag size: Moved to "cayo utils"
+-- casino -> added support for 179% cut 
+-- casino -> fixed invalid hash number for player 4
+--doomsday -> added support for 150% cuts
+
+Hidden:
+-- added anti chat flood (Might not work)
+
+-------------------------------------------------- Version 0.0.1 (Private) --------------------------------------------------
+Not logged...
