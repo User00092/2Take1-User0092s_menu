@@ -1,0 +1,5 @@
+You can use this little program I made: https://onlinegdb.com/0Tk4rD84f
+
+Why isn't this built in? I don't know how. Yes, I already tested it
+
+Having it in the Lua code would either crash local player, or be extra slow, sometimes not work at all.
